@@ -1,5 +1,9 @@
 # project-euler-solutions
+!["Project Euler - Erhan Kılıç"](https://projecteuler.net/profile/erhankilic.png "Project Euler - Erhan Kılıç")
+
 I wanted to solve [Project Euler](https://projecteuler.net/about)'s problems and created this repository. If you want to solve these problems too, please try to solve by yourself first. I just wanted to share my solutions so we can compare our solutions discuss about them.
+
+I'll solve the problems in php and javascript.
 
 ## What is Project Euler?
 Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.
