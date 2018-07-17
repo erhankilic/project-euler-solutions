@@ -8,7 +8,6 @@
  * https://projecteuler.net/problem=5
  */
 
-$sumStart = 20;
 $number = 20;
 $isFound = false;
 $checkList = [11, 13, 14, 16, 17, 18, 19, 20];

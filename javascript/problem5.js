@@ -9,7 +9,6 @@
  * https://projecteuler.net/problem=5
  */
 
-var sumStart = 20;
 var number = 20;
 var isFound = false;
 var checkList = [11, 13, 14, 16, 17, 18, 19, 20];
