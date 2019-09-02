@@ -30,7 +30,6 @@ while (nth < 10001) {
             isPrimeNumber = false;
             break;
         }
-        divison = testNumber / primeNumber;
     }
 
     if (isPrimeNumber) {
