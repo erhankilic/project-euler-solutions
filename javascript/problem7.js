@@ -20,7 +20,7 @@ let lastPrimeNumber = null;
 while (nth < 10001) {
     testNumber += 2;
     let isPrimeNumber = true;
-    let divison = sqrt(testNumber);
+    let divison = Math.sqrt(testNumber);
 
     for (let primeNumber of primeNumbers) {
         if (primeNumber > divison) {

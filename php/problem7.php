@@ -19,7 +19,7 @@ $lastPrimeNumber = null;
 while ($nth < 10001) {
     $testNumber += 2;
     $isPrimeNumber = true;
-    $divison = $testNumber / 2;
+    $divison = sqrt($testNumber);
 
     foreach ($primeNumbers as $primeNumber) {
         if ($primeNumber > $divison) {
