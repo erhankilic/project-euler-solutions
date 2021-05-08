@@ -1,0 +1,29 @@
+<?php
+/**
+ * @Author: Erhan Kılıç
+ * @Website: http://erhankilic.org
+ * @Problem:
+
+    A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
+    a2 + b2 = c2
+
+    For example, 32 + 42 = 9 + 16 = 25 = 52.
+
+    There exists exactly one Pythagorean triplet for which a + b + c = 1000.
+    Find the product abc.
+
+ * https://projecteuler.net/problem=9
+ */
+
+for ($i = 1; $i <= 997; $i++) {
+    $jLimit = 1000 - $i;
+    for ($j = $i + 1; $j <= $jLimit; $j++) {
+        $kLimit = 1000 - ($i + $j);
+        for ($k = $j + 1; $k <= $kLimit; $k++) {
+            if (($i + $j + $k === 1000) && (($i * $i) + ($j * $j) === $k * $k)) {
+                echo $i * $j * $k;
+                break 3;
+            }
+        }
+    }
+}
