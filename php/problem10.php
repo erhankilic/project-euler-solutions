@@ -4,19 +4,18 @@
  * @Website: http://erhankilic.org
  * @Problem:
 
-By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
+The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 
-What is the 10001st prime number?
+Find the sum of all the primes below two million.
 
- * https://projecteuler.net/problem=7
+ * https://projecteuler.net/problem=10
  */
 
 $primeNumbers = [3];
-$nth = 2;
 $testNumber = 3;
-$lastPrimeNumber = null;
+$total = 5;
 
-while ($nth < 10001) {
+while ($testNumber < 2000000) {
     $testNumber += 2;
     $isPrimeNumber = true;
     $divison = sqrt($testNumber);
@@ -33,9 +32,8 @@ while ($nth < 10001) {
 
     if ($isPrimeNumber) {
         $primeNumbers[] = $testNumber;
-        $lastPrimeNumber = $testNumber;
-        $nth++;
+        $total += $testNumber;
     }
 }
 
-echo $lastPrimeNumber;
+echo $total;
